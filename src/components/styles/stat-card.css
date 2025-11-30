@@ -1,0 +1,66 @@
+.stat-card {
+  border: none;
+}
+
+.stat-content {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+}
+
+.stat-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+
+.stat-icon-primary {
+  background-color: rgba(22, 29, 111, 0.1);
+  color: var(--color-primary);
+}
+
+.stat-icon-secondary {
+  background-color: rgba(152, 222, 217, 0.2);
+  color: var(--color-secondary);
+}
+
+.stat-icon-success {
+  background-color: rgba(199, 255, 216, 0.3);
+  color: #00aa00;
+}
+
+.stat-text {
+  flex: 1;
+}
+
+.stat-label {
+  font-size: var(--font-size-sm);
+  color: #999;
+  font-weight: 500;
+  margin-bottom: var(--space-xs);
+  margin: 0;
+}
+
+.stat-value {
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0 0 var(--space-xs) 0;
+}
+
+.stat-trend {
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+}
+
+.stat-trend.positive {
+  color: #00aa00;
+}
+
+.stat-trend.negative {
+  color: var(--color-error);
+}
